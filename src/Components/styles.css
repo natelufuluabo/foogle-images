@@ -1,0 +1,22 @@
+/* Navbar styling */
+nav {
+    background-color: inherit;
+}
+
+.website-title {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    color: #DD58D6;
+}
+
+.themeTogglerButton {
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    font-size: 2rem;
+    color: #DD58D6;
+}
+
+/* Navbar styling */
