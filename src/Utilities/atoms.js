@@ -7,12 +7,6 @@ export const searchResultsAtom = atom({
 });
 
 // eslint-disable-next-line
-export const searchTermAtom = atom({
-    key: 'SearchTerm',
-    default: ''
-});
-
-// eslint-disable-next-line
 export const appThemeAtom = atom({
     key: 'AppTheme',
     default: 'light'

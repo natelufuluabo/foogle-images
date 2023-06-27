@@ -36,14 +36,46 @@ nav {
 
 #themeTogglerButton-dark {
     color: #fff;
-    background-color: #1D267D;
+    background-color: #191825;
 }
 
+/* Navbar styling */
+
+/* Search Bar styling */
+
+.searchInput,
+.searchButton {
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: #E9E8E8;
+}
+
+.searchInput:focus {
+    background-color: #E9E8E8;
+}
+
+.searchButton {
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: #DD58D6;
+}
+
+.searchInput {
+    border-right: none;
+    color: #191825;
+}
+
+/* Search Bar styling */
+
+/* General styling */
+
 @media (min-width: 1024px)  {
-    nav {
+    nav,
+    .searchContainer {
         margin-right: auto;
         margin-left: auto;
     }
 }
 
-/* Navbar styling */
+/* General styling */
