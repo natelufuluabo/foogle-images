@@ -16,7 +16,7 @@ const SearchBar = () => {
         setUserInput('');
     }
     return (
-        <div className="col-sm-12 col-md-12 col-lg-7 searchContainer">
+        <div className="col-sm-12 col-md-12 col-lg-8 searchContainer">
             <div class="input-group">
                 <input type="text" class="form-control p-3 searchInput" value={userInput} onChange={handleChange}/>
                 <div class="input-group-append">

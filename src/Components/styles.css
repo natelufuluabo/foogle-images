@@ -75,11 +75,21 @@ nav {
 
 /* General styling */
 
-@media (min-width: 1024px)  {
+@media (min-width: 1000px)  {
     nav,
-    .searchContainer {
+    .searchContainer,
+    .imagesContainer {
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .imageBox {
+        width: 45%;
+    }
+
+    img {
+        height: 100%;
+        width: 100%;
     }
 }
 

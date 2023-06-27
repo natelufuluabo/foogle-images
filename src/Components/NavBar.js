@@ -8,7 +8,7 @@ const NavBar = () => {
         appTheme === 'light' ? setAppTheme('dark'):setAppTheme('light')
     }
     return(
-        <nav className="navbar sticky-top d-flex flex-row col-sm-12 col-md-12 col-lg-7 pt-3">
+        <nav className="navbar d-flex flex-row col-sm-12 col-md-12 col-lg-8 pt-3">
             {/* eslint-disable-next-line */}
             <a id={appTheme === 'light' ? 'websiteTitle-light' : 'websiteTitle-dark'} className="navbar-brand" href="#">
                 Fooggle-Images
