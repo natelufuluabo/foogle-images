@@ -6,15 +6,23 @@
 
 html {
     font-size: 62.5%;
+    height: 100%;
 }
 
 body {
     font-family: 'Roboto Slab', serif;
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
 }
 
 .big-container {
     transition: all 0.3s;
-    /* display: contents; */
+    flex: 1 1 auto;
 }
 
 #light {
