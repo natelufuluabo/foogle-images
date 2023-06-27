@@ -13,6 +13,7 @@ const SearchBar = () => {
     const updateSearchResults = async () => {
         const results = await fetchImages(userInput);
         setSearchResults(results);
+        setUserInput('');
     }
     return (
         <div className="col-sm-12 col-md-12 col-lg-7 searchContainer">

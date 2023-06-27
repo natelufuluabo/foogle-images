@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './Components/NavBar';
 import SearchBar from './Components/SearchBar';
+import ImageList from './Components/ImageList';
 import { useRecoilValue } from 'recoil';
 import { appThemeAtom } from './Utilities/atoms';
 
@@ -11,6 +12,7 @@ function App() {
       <div className="container d-flex flex-column gap-5">
         <NavBar/>
         <SearchBar />
+        <ImageList />
       </div>`
     </div>
   );

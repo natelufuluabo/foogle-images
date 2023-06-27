@@ -13,7 +13,6 @@ body {
 }
 
 .big-container {
-    height: 100vh;
     transition: all 0.3s;
 }
 
