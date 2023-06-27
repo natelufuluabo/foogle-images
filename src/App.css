@@ -14,6 +14,7 @@ body {
 
 .big-container {
     transition: all 0.3s;
+    /* display: contents; */
 }
 
 #light {

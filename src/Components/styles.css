@@ -75,16 +75,22 @@ nav {
 
 /* General styling */
 
+.imagesContainer {
+    overflow: hidden;
+}
+
+.imageBox {
+    width: 95%;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
 @media (min-width: 1000px)  {
     nav,
     .searchContainer,
     .imagesContainer {
         margin-right: auto;
         margin-left: auto;
-    }
-
-    .imageBox {
-        width: 45%;
     }
 
     img {
