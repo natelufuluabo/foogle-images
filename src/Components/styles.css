@@ -54,7 +54,12 @@ nav {
     background-color: #E9E8E8;
 }
 
-.searchButton {
+.searchButton,
+.searchButton:hover,
+.searchButton:active {
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    background-color: #E9E8E8;
     border-left: none;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;

@@ -6,13 +6,12 @@ const NavBar = () => {
     const [appTheme, setAppTheme] = useRecoilState(appThemeAtom);
     const toggleAppTheme = () => {
         appTheme === 'light' ? setAppTheme('dark'):setAppTheme('light')
-        console.log(appTheme);
     }
     return(
         <nav className="navbar sticky-top d-flex flex-row col-sm-12 col-md-12 col-lg-7 pt-3">
             {/* eslint-disable-next-line */}
             <a id={appTheme === 'light' ? 'websiteTitle-light' : 'websiteTitle-dark'} className="navbar-brand" href="#">
-                Foggle-Images
+                Fooggle-Images
             </a>
             <button id={appTheme === 'light' ? 'themeTogglerButton-light' : 'themeTogglerButton-dark'} onClick={toggleAppTheme}>
                 <i class="fa-solid fa-moon"></i>
