@@ -39,4 +39,11 @@ nav {
     background-color: #1D267D;
 }
 
+@media (min-width: 1024px)  {
+    nav {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
 /* Navbar styling */

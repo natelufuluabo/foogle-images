@@ -9,7 +9,7 @@ const NavBar = () => {
         console.log(appTheme);
     }
     return(
-        <nav className="navbar sticky-top d-flex flex-row pt-3">
+        <nav className="navbar sticky-top d-flex flex-row col-sm-12 col-md-12 col-lg-7 pt-3">
             {/* eslint-disable-next-line */}
             <a id={appTheme === 'light' ? 'websiteTitle-light' : 'websiteTitle-dark'} className="navbar-brand" href="#">
                 Foggle-Images

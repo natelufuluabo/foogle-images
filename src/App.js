@@ -7,7 +7,7 @@ function App() {
   const appTheme = useRecoilValue(appThemeAtom);
   return (
     <div id={appTheme} className='big-container'>
-      <div className="container">
+      <div className="container d-flex flex-column">
         <NavBar/>
       </div>`
     </div>
