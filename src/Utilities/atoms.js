@@ -1,19 +1,19 @@
 import { atom } from "recoil";
 
 // eslint-disable-next-line
-const searchResultsAtom = atom({
+export const searchResultsAtom = atom({
     key: 'SearchResults',
     default: []
 });
 
 // eslint-disable-next-line
-const searchTermAtom = atom({
+export const searchTermAtom = atom({
     key: 'SearchTerm',
     default: ''
 });
 
 // eslint-disable-next-line
-const appTheme = atom({
+export const appThemeAtom = atom({
     key: 'AppTheme',
     default: 'light'
-})
+});

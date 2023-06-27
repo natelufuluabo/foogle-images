@@ -1,10 +1,15 @@
 import './App.css';
+import { useRecoilValue } from 'recoil';
 import NavBar from './Components/NavBar';
+import { appThemeAtom } from './Utilities/atoms';
 
 function App() {
+  const appTheme = useRecoilValue(appThemeAtom);
   return (
-    <div className="container">
-      <NavBar/>
+    <div id={appTheme} className='big-container'>
+      <div className="container">
+        <NavBar/>
+      </div>`
     </div>
   );
 }

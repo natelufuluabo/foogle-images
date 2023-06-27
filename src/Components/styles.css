@@ -1,22 +1,42 @@
 /* Navbar styling */
 nav {
     background-color: inherit;
+    transition: all 0.3s;
 }
 
-.website-title {
+#websiteTitle-light, 
+#websiteTitle-dark {
     font-size: 2rem;
     font-weight: bold;
     letter-spacing: 0.2rem;
+    transition: all 0.3s;
+}
+
+#websiteTitle-light {
     color: #DD58D6;
 }
 
-.themeTogglerButton {
+#websiteTitle-dark {
+    color: #fff;
+}
+
+#themeTogglerButton-light,
+#themeTogglerButton-dark {
     border: none;
     cursor: pointer;
     padding: 0.5rem 1rem;
-    background-color: #fff;
     font-size: 2rem;
+    transition: all 0.3s;
+}
+
+#themeTogglerButton-light {
     color: #DD58D6;
+    background-color: #fff;
+}
+
+#themeTogglerButton-dark {
+    color: #fff;
+    background-color: #1D267D;
 }
 
 /* Navbar styling */

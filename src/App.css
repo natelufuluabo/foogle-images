@@ -11,3 +11,16 @@ html {
 body {
     font-family: 'Roboto Slab', serif;
 }
+
+.big-container {
+    height: 100vh;
+    transition: all 0.3s;
+}
+
+#light {
+    background-color: #fff;
+}
+
+#dark {
+    background-color: #1D267D;
+}
