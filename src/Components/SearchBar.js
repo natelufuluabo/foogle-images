@@ -14,6 +14,7 @@ const SearchBar = () => {
         const results = await fetchImages(userInput);
         setSearchResults(results);
         setUserInput('');
+        console.log(searchResults);
     }
     return (
         <div className="col-sm-12 col-md-12 col-lg-8 searchContainer">

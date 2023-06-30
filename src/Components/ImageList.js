@@ -11,12 +11,14 @@ const ImageList = () => {
         <ImageShow 
             imgSrc={image.urls.regular}
             altText={image.alt_description}
+            author={image.user.name}
         />
     ));
     const secondColRendering = secondCol.map((image) => (
         <ImageShow 
             imgSrc={image.urls.regular}
             altText={image.alt_description}
+            author={image.user.name}
         />
     ));
     const imagesRenderingFunc = () => {

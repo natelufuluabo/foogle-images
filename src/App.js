@@ -10,9 +10,13 @@ function App() {
   return (
     <div id={appTheme} className='big-container'>
       <div className="container d-flex flex-column gap-5">
-        <NavBar/>
-        <SearchBar />
-        <ImageList />
+        <header>
+          <NavBar/>
+        </header>
+        <main className='d-flex flex-column gap-5'>
+          <SearchBar />
+          <ImageList />
+        </main>
       </div>`
     </div>
   );
